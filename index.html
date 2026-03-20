@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Appliance Repair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>US Appliance Repair</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Book a Repair</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#booking" class="cta-btn">Book Now</a>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Reliable Appliance Repair Across the USA</h2>
+        <p>Fast, professional repairs for refrigerators, washing machines, microwaves, and dishwashers</p>
+        <a href="#booking" class="btn-hero">Book a Repair</a>
+    </section>
+
+    <section id="services" class="services">
+        <h3>Our Services</h3>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🥶</div>
+                <h4>Refrigerator Repair</h4>
+                <p>Fast and reliable service for all refrigerator brands.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌀</div>
+                <h4>Washing Machine Repair</h4>
+                <p>We fix washing machines to get your laundry back on track.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h4>Microwave Repair</h4>
+                <p>Quick solutions for microwave malfunctions and errors.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🍽️</div>
+                <h4>Dishwasher Repair</h4>
+                <p>Efficient repairs to keep your dishwasher working like new.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <h3>Book a Repair</h3>
+        <form id="repairForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="phone">Phone (+1-XXX-XXX-XXXX)</label>
+            <input type="tel" id="phone" required pattern="\+1-\d{3}-\d{3}-\d{4}">
+            <label for="problem">Describe Problem</label>
+            <textarea id="problem" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <section class="cta-section">
+        <h3>Schedule Your Repair Today</h3>
+        <a href="#booking" class="cta-btn">Book Now</a>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p>US Appliance Repair &copy; 2026</p>
+        <p>Email: support@usappliancerepair.com | Phone: +1-555-123-4567</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #111;
+    color: #eee;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    background: #1a1a1a;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.cta-btn {
+    background: #fff;
+    color: #111;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #ddd;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #111, #222);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-hero {
+    background: #fff;
+    color: #111;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-hero:hover {
+    background: #ddd;
+}
+
+.services {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background: #1a1a1a;
+    padding: 30px 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.booking {
+    padding: 80px 20px;
+    text-align: center;
+    background: #222;
+}
+
+.booking h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+#repairForm {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#repairForm input,
+#repairForm textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+#repairForm button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#repairForm button:hover {
+    background: #ddd;
+}
+
+#formMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+}
+
+.cta-section h3 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer .socials {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .socials a {
+    color: #eee;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer .socials a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
