@@ -35,22 +35,30 @@
         <h3>Our Services</h3>
         <div class="services-grid">
             <div class="service-card">
-                <div class="service-icon">🥶</div>
+                <div class="service-icon">
+                    <img src="./img/refrigerator.jpg" alt="Refrigerator Repair">
+                </div>
                 <h4>Refrigerator Repair</h4>
                 <p>Fast and reliable service for all refrigerator brands.</p>
             </div>
             <div class="service-card">
-                <div class="service-icon">🌀</div>
+                <div class="service-icon">
+                    <img src="./img/washing.jpg" alt="Washing Machine Repair">
+                </div>
                 <h4>Washing Machine Repair</h4>
                 <p>We fix washing machines to get your laundry back on track.</p>
             </div>
             <div class="service-card">
-                <div class="service-icon">⚡</div>
+                <div class="service-icon">
+                    <img src="./img/microwave.jpg" alt="Microwave Repair">
+                </div>
                 <h4>Microwave Repair</h4>
                 <p>Quick solutions for microwave malfunctions and errors.</p>
             </div>
             <div class="service-card">
-                <div class="service-icon">🍽️</div>
+                <div class="service-icon">
+                    <img src="./img/dishwasher.jpg" alt="Dishwasher Repair">
+                </div>
                 <h4>Dishwasher Repair</h4>
                 <p>Efficient repairs to keep your dishwasher working like new.</p>
             </div>
@@ -60,24 +68,19 @@
     <section id="booking" class="booking">
         <h3>Book a Repair</h3>
         <form id="repairForm">
-            <label for="name">Name</label>
-            <input type="text" id="name" required>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required placeholder="Full Name">
             <label for="phone">Phone (+1-XXX-XXX-XXXX)</label>
-            <input type="tel" id="phone" required pattern="\+1-\d{3}-\d{3}-\d{4}">
+            <input type="tel" id="phone" required pattern="\+1-\d{3}-\d{3}-\d{4}" placeholder="+1-555-123-4567">
             <label for="problem">Describe Problem</label>
-            <textarea id="problem" rows="4" required></textarea>
+            <textarea id="problem" rows="4" required placeholder="Describe your appliance issue..."></textarea>
             <button type="submit">Submit</button>
             <p id="formMessage"></p>
         </form>
     </section>
 
-    <section class="cta-section">
-        <h3>Schedule Your Repair Today</h3>
-        <a href="#booking" class="cta-btn">Book Now</a>
-    </section>
-
     <footer id="contact" class="footer">
-        <p>US Appliance Repair &copy; 2026</p>
+        <p>Appliance Repair &copy; 2026</p>
         <p>Email: support@usappliancerepair.com | Phone: +1-555-123-4567</p>
         <div class="socials">
             <a href="#">Facebook</a>
